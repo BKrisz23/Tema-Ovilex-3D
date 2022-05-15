@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: f9aa046906c14424cb04348019d1043f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: aripa_f
+    100002: body
+    100004: body_matte
+    100006: clear_glass
+    100008: ghidon
+    100010: handlebars
+    100012: //RootNode
+    100014: mirror_l
+    100016: mirror_r
+    100018: parts
+    100020: Plane001
+    100022: Rear
+    100024: tire_f
+    100026: tire_r
+    100028: wheel_f
+    100030: wheel_r
+    100032: AC
+    100034: Gauges
+    100036: GPS
+    400000: aripa_f
+    400002: body
+    400004: body_matte
+    400006: clear_glass
+    400008: ghidon
+    400010: handlebars
+    400012: //RootNode
+    400014: mirror_l
+    400016: mirror_r
+    400018: parts
+    400020: Plane001
+    400022: Rear
+    400024: tire_f
+    400026: tire_r
+    400028: wheel_f
+    400030: wheel_r
+    400032: AC
+    400034: Gauges
+    400036: GPS
+    2100000: parts
+    2100002: body
+    2100004: tires
+    2100006: mirrors
+    2100008: wheels
+    2100010: glass
+    2100012: red_glass
+    2100014: 'Material #28'
+    2100016: 'Material #27'
+    2100018: 'Material #30'
+    2300000: aripa_f
+    2300002: body
+    2300004: body_matte
+    2300006: clear_glass
+    2300008: ghidon
+    2300010: handlebars
+    2300012: mirror_l
+    2300014: mirror_r
+    2300016: parts
+    2300018: Plane001
+    2300020: Rear
+    2300022: tire_f
+    2300024: tire_r
+    2300026: wheel_f
+    2300028: wheel_r
+    2300030: AC
+    2300032: Gauges
+    2300034: GPS
+    3300000: aripa_f
+    3300002: body
+    3300004: body_matte
+    3300006: clear_glass
+    3300008: ghidon
+    3300010: handlebars
+    3300012: mirror_l
+    3300014: mirror_r
+    3300016: parts
+    3300018: Plane001
+    3300020: Rear
+    3300022: tire_f
+    3300024: tire_r
+    3300026: wheel_f
+    3300028: wheel_r
+    3300030: AC
+    3300032: Gauges
+    3300034: GPS
+    4300000: parts
+    4300002: body
+    4300004: tire_r
+    4300006: mirror_r
+    4300008: wheel_r
+    4300010: clear_glass
+    4300012: ghidon
+    4300014: aripa_f
+    4300016: wheel_f
+    4300018: tire_f
+    4300020: body_matte
+    4300022: Plane001
+    4300024: Rear
+    4300026: handlebars
+    4300028: mirror_l
+    4300030: Gauges
+    4300032: GPS
+    4300034: AC
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.099999994
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

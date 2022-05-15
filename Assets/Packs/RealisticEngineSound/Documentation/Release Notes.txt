@@ -1,0 +1,144 @@
+Realistic Engine Sounds Plus: Release notes:
+
+v1.11
+- Added support for "FGear Vehicle Physics"
+- Added support for "iRDS" dll version
+- Added an option for all additional prefabs to enable/disable unused audio source deletion
+- Updated the compatibility for "Universal Vehicle Controller" (added compatibility for the "Without Dependencies" version)
+- Small fixes in additional prefabs
+- Fixed Shifting Sound Pack 2 mobile prefabs having the wrong script in them
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.10a
+- Fixed a typo in Supercharger controller scripts
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+v1.10
+- Added support for "Universal Vehicle Controller"
+- Added new features to muffler crackle sound controller scripts
+- Updated compatibility for NWH2
+- Updated compatibility for RCC
+- Updated documentation
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+v1.9
+- Added support for "NWH Vehicle Physics 2" asset
+- Made some changes to Slider demo scene's DemoController.cs script
+- Made some minor changes in Slider demo scenes
+- Made some minor changes in RCC-RES controller script
+- Removed the following older scripts, previously used for Slider demo scenes: SetRPMToSlider.cs, MobileSetRPMToSlider.cs, DropListController.cs, DropListCntrlMobile.cs
+- Updated Documentation
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+v1.8a
+- Fixed a bug that rarely caused sound clips constant playing when "Destroy Audio Sources" was disabled in engine sound prefabs
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+v1.8 : Preparing RES for the upcoming major update!
+- Added an option to disable automatically delete unused Audio Sources
+- Added support for "Vehicle Physics Pro" asset
+- Added support for "Unity Car Pro" asset
+- Added support for "Driver (Traffic System)" asset
+- Added support for "Intelligent Race Driver System (iRDS)" asset
+- Added support for "MS Vehicle System" asset
+- Added support for "Realistic Car Kit" asset
+- Changed the logic behind engine load calculation (gasPedalValue), now this value is not depending on "gasPedalPressing" value, engine sound can change depending on engine load, this change also made the code more cleaner and easier to understand
+- Disabling engine load simulation is now working properly, you can set "gasPedalValue" to a joystick button value or to your vehicle physic controller's engine load value (if it have this kind of value)
+- Changed the logic behind reverse gear sound fx simulation, now it depending on the vehicle's current speed, not on engine's rpm value, this also made the code more cleaner and easier to understand
+- Added more comments to controller scripts
+- Each "Assets_For_..." vehicle controller folders are moved into "Assets_For_Vehicle_Controllers" folder to make the file structure cleaner and renamed "Assets_For_..." folder names to only contain the vehicle physic controller's shortened name
+- Removed deprecated prefabs
+- Changed the controller scripts for "Slider Demo Scene"
+- Changed reverse gear sound fx 2
+- Updated Documentation
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+v1.7
+- Added an option to set prefabs dopplerLevel value
+- Added support for "Motorbike Starter Kit" asset
+- Reduced garbage collection for all scripts (now most scripts create 0 gc or only a few byte gc for a moment)
+- Added audio mixer for addon prefabs (turbo, supercharger,...etc)
+- Addon prefabs can have own audio mixer or it will use automatically the engine prefab's audio mixer (if there is any)
+- All addon prefabs use engine prefab properties's value for the following properties: audioRolloffMode, minDistance, maxDistance, spatialBlend(allways = 1 in engine prefabs), dopplerLevel.
+- Fixed V10 Italian engine pack's high rpm audio files looping problem
+- Minor fixes
+- Updated documentation
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+v1.6
+- Added 2 new engine sound packs: V8 Italian F355 and Truck Old
+- Added 1 new reverse sound for truck engine sound(beep warning sound)
+- Added support for AudioMixer (set all engine sounds volume all at once or add special effects or filters)
+- Added AudioRolloffMode setting (default set to "Custom")
+- Added Automatic Optimisation: if main camera is far more like "MaxDistance" from RES script, the script will automatically destroy all of it's audio sources. Because of the distance, this audio sources already can't be heard. This is a huge performance save for scenes with multiple vehicles in it.
+- Optimised RES controller script's ReverbZone settings to a much simpler code and reduced controller script size
+- "dopplerAmount" value is now set to private and it's value is always 1.0f
+- Updated all other controller scripts to work with the new RES controller script
+- "Street" and "Track" prefabs are now deprecated. Get the same results by editing the engine prefab's "Pitch Multiplier" value (this deprecated prefabs are still available but not updated to the new sound files and scripts).
+- Minor bug fixes
+- Minimum Unity 3D version now is 2017.1: random pitch changing bug in Audio Listeners does not exist in Unity 2017.1. No longer need to trick it with custom audio listeners.
+- Remastered the following engine sound packs: i4 German, i4 Japanese, i6 German, V8 Amreican Classic, V8 American Modern, V10 Italian
+- EVP5: CameraControll_VM.cs script is (removed) replaced with CameraControll.cs (use CameraControll.cs if your scene is looking for CameraControll_VM.cs)
+- RVP2 to RES script is modified, now it have better RPM simulation when car is decelerating
+- Updated Demo Scenes
+- Updated Documentation
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+v1.5
+- Added support for NWH Vehicle Physics
+- Updated Documentation
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+v1.4 
+- Updated RCC support to V3.2 
+- Added a new camera controller script for EVP Vehicle Manager Scene: CameraControll_VM.cs 
+- Fixed a bug with EVP when shifting back sounds was not played
+-------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+v1.3
+- Added muffler pluck noise sound files, controller scripts for this and prefabs
+- Added shifting sound files, controller script for this and prefabs
+- Added turbo sound files, controller script for this and prefabs
+- Added supercharger sound files, controller script for this and prefabs
+- Added an option to set Master Volume (can reduce engine sounds volume)
+- Added an option to add reverb zone with a preset
+- New controller script for Unity Standard Assets Car, this controller script now releases gas pedal at shifting
+- Modified the logic behind rpm limiting. If you disable rpm limiting no need to modify "High Vol Curve" any more
+- Removed "Max RPM Pitch Curve", script now using high rpm's pitch curve for rpm limiting
+- Removed "High Vol Reversing Curve", script now using "High Vol Curve"'s value for reversing
+- Updated demo scenes
+- Updated "car controllers to res" sccripts
+- Fixed a bug with RVP2 controller script, not detected gas pedal pressing in reverse gear
+- Fixed missing reverse gear sound clip in RVP2 prefabs
+- Updated documentation
+- Minor bugfixes
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+v1.2
+- All engine off sound files are remastered
+- New maxRPM and int_maxRPM sound files for v8_italian and v10_italian engine packs
+- Added a feature to set sound clips to "None", with this feature you can create prefabs with only 2-3 wav files for better optimisation on mobile devices
+- Added "Street" and "Track" prefabs for all engine packs. This prefabs use the same wav files, but with different settings and higher maximum pitch values
+- Added Street and Track prefabs to demo scenes
+- Added "Gas Pedal" button to "Slider" demo scenes for better engine sound simulation
+- Added two new, free engine packs "rotary_x8_free" and "i6_german_free. This sound packs are available for free in the Asset Store
+- Added "Start Engine" sounds for all engine packs
+- Some stock prefabs have new settings
+- Added a new demo scene for RCC_V3 "CAMERA_RCC_with_RES"
+- Added a new controller script for RCC_V3 "RCC_RES_camera". This controller script automatically switch between exterior and interior engine sounds when camera is changed. This script also fix the "shaking" car sound bug for TPS, FPS and FIXED camera views.
+- Added a new demo scene for EVP "CAMERA_EVP5_with_RES"
+- Added two new controller scripts for EVP "CameraControl" and "CameraControl_mobile". This controller scripts automatically switch between exterior and interior engine sounds when camera is changed. This script also fix the "shaking" car sound bug for SmoothFollow, MouseOrbit and AttachTo camera views.
+- Updated documentation
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+v1.1
+- Rewrited RES controller scripts for better optimisation
+- Controller scripts destroy audio sources that have 0 volume and recreate them when volume is more than Optimisation Level's value. Prefabs now may only play 2-3 or 4 audio sources at a time.
+- Added feature for smooth gas pedal pressing and releasing simulation. Now engine sounds more realistic when releasing the gas pedal at driving and pressing it again.
+- Added option to disable gas pedal pressing simulaton for joystick controlled games.
+- Added options for minimum and maximum audio distances.
+- Added Optimisation Level setting (0 to 0.25) - audio sources with volume value below this value will be destroyed.
+- Added interior sound wav files, prefabs and demo scenes
+- Added support for Randomation Vehicle Physics 2 (prefabs and demo scenes)
+- Added support for Edy's Vehicle Physics 5 (prefabs and demo scenes)
+- All prefabs have new presets for better optimisation and more realistic sounding
+- All vehicle controller scripts have an option for release gas pedal at shifting for more realistic effect (except mobile verions and Unity Standard Asset's Car controller all versions)
+- All vehicle physics prefabs have easier inplementation. Just drag and drop the right prefab into the car gameobject and everything else is done by the controller script.
+- Minor fixes in demo scenes
+- Fixed wav files looping (removed "pluck" sound noise)
+- Updated documentation and recorded new Youtube tutorial videos
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+v1.0
+First release.
