@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: 860f700270bf8684eafd4dd768ff8a84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5464365917462056879
+    second: MobileButtons_0
+  - first:
+      213: -3381401953904709177
+    second: MobileButtons_1
+  - first:
+      213: -6951320790804333139
+    second: MobileButtons_2
+  - first:
+      213: 8837979574661733928
+    second: MobileButtons_3
+  - first:
+      213: 7821100471139208086
+    second: MobileButtons_4
+  - first:
+      213: 7675454154497871457
+    second: MobileButtons_5
+  - first:
+      213: 1393434213778780969
+    second: MobileButtons_6
+  - first:
+      213: -1469461795980290830
+    second: MobileButtons_7
+  - first:
+      213: 8095650872407736430
+    second: MobileButtons_8
+  - first:
+      213: -1445724272831018127
+    second: MobileButtons_0
+  - first:
+      213: 91143077809558162
+    second: MobileButtons_1
+  - first:
+      213: 764683954505547453
+    second: MobileButtons_2
+  - first:
+      213: 238742162751670687
+    second: MobileButtons_3
+  - first:
+      213: -4203414319231104268
+    second: MobileButtons_4
+  - first:
+      213: -1626496502996572942
+    second: MobileButtons_5
+  - first:
+      213: -1316420582594919442
+    second: MobileButtons_6
+  - first:
+      213: -2843274910980071207
+    second: MobileButtons_7
+  - first:
+      213: 5916492968042158842
+    second: MobileButtons_8
+  - first:
+      213: -5572654317543660199
+    second: MobileButtons_9
+  - first:
+      213: -2100703400798943322
+    second: MobileButtons_10
+  - first:
+      213: -515352896061876744
+    second: MobileButtons_11
+  - first:
+      213: -32219879878393642
+    second: MobileButtons_12
+  - first:
+      213: 203311766215775435
+    second: MobileButtons_13
+  - first:
+      213: -5342830160769465832
+    second: MobileButtons_14
+  - first:
+      213: -2120904400199832865
+    second: MobileButtons_15
+  - first:
+      213: -4006269004114425370
+    second: MobileButtons_16
+  - first:
+      213: 3710334343720712152
+    second: MobileButtons_17
+  - first:
+      213: -8670079346050851414
+    second: MobileButtons_18
+  - first:
+      213: -5547668615273734680
+    second: MobileButtons_19
+  - first:
+      213: 5188980249571937542
+    second: MobileButtons_20
+  - first:
+      213: 7144146284735777899
+    second: MobileButtons_21
+  - first:
+      213: 2234610824529460460
+    second: MobileButtons_22
+  - first:
+      213: 1328720211614260099
+    second: MobileButtons_23
+  - first:
+      213: -1537272219296844740
+    second: MobileButtons_24
+  - first:
+      213: 1563423308664337039
+    second: MobileButtons_25
+  - first:
+      213: 981721413579759556
+    second: MobileButtons_26
+  - first:
+      213: 6011521859295725992
+    second: MobileButtons_27
+  - first:
+      213: 4115722700667976875
+    second: MobileButtons_28
+  - first:
+      213: -8445801453125199029
+    second: MobileButtons_29
+  - first:
+      213: 1955885703113099724
+    second: MobileButtons_30
+  - first:
+      213: -3674823979629689916
+    second: MobileButtons_31
+  - first:
+      213: -5188702960018772798
+    second: MobileButtons_32
+  - first:
+      213: -3029446697977974039
+    second: MobileButtons_33
+  - first:
+      213: 424306499406235947
+    second: MobileButtons_34
+  - first:
+      213: -8946105972432794174
+    second: MobileButtons_35
+  - first:
+      213: -8923277099469270275
+    second: MobileButtons_36
+  - first:
+      213: 9199768166289986955
+    second: MobileButtons_37
+  - first:
+      213: 575874985664309981
+    second: MobileButtons_38
+  - first:
+      213: 5778101565834977718
+    second: MobileButtons_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MobileButtons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b4fb20f61cfebe0800000000000000
+      internalID: -1445724272831018127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MobileButtons_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2921398752ec34100800000000000000
+      internalID: 91143077809558162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MobileButtons_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe7eb15104bc9a00800000000000000
+      internalID: 764683954505547453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MobileButtons_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99c8bb6bbe205300800000000000000
+      internalID: 238742162751670687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MobileButtons_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa807282f87aa5c0800000000000000
+      internalID: -4203414319231104268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MobileButtons_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4697e4c068d69e0800000000000000
+      internalID: -1626496502996572942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MobileButtons_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3ca6f64722bbde0800000000000000
+      internalID: -1316420582594919442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MobileButtons_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0a0446888aa88d0800000000000000
+      internalID: -2843274910980071207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MobileButtons_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afadf3ce10b9b1250800000000000000
+      internalID: 5916492968042158842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MobileButtons_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95563c26c64f9a2b0800000000000000
+      internalID: -5572654317543660199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 594ffca3ee8a12042acc5e4b0591babf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

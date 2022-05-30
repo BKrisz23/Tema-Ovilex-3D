@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f07fb332d6e6884aac92e9ec3820df8, type: 3}
+  m_Name: DriftAIConfig
+  m_EditorClassIdentifier: 
+  AIConfig:
+    MaxSpeed: 100
+    MinSpeed: 5
+    SetSteerAngleMultiplayer: 2.5
+    OffsetToTargetPoint: 2
+    SpeedFactorToTargetPoint: -0.53
+    OffsetTurnPrediction: 7
+    SpeedFactorToTurnPrediction: 0.5
+    LookAngleSppedFactor: 15
+    ReverceWaitTime: 2
+    ReverceTime: 2
+    BetweenReverceTimeForReset: 5
+  DriftAIConfig:
+    MaxSpeed: 80
+    MinSpeed: 6
+    SetSteerAngleMultiplayer: 2
+    OffsetToTargetPoint: 5
+    SpeedFactorToTargetPoint: 0.5
+    OffsetTurnPrediction: 11
+    SpeedFactorToTurnPrediction: 0.6
+    LookAngleSppedFactor: 30
+    ReverceWaitTime: 2
+    ReverceTime: 2
+    BetweenReverceTimeForReset: 6
+    ObstacleHitDistance: 15
+    HitPointHeight: 0.5
+    ObstacleHitMask:
+      serializedVersion: 2
+      m_Bits: 256

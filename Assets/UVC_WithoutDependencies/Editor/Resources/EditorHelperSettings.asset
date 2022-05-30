@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7769b079f8ece4d90fecfb9035719b, type: 3}
+  m_Name: EditorHelperSettings
+  m_EditorClassIdentifier: 
+  MainFrontLightShards: {fileID: 2659493410722063602, guid: ee012d2352f0b844690aa8ff2fe6750f,
+    type: 3}
+  TurnSignalShards: {fileID: 1319603566574687390, guid: 4e46cbacee94a8b439388d4763008cb8,
+    type: 3}
+  BrakeShards: {fileID: 9161608392266369221, guid: 5a31b925c96566241b372352da06aeb1,
+    type: 3}
+  ReverseShards: {fileID: 2659493410722063602, guid: ee012d2352f0b844690aa8ff2fe6750f,
+    type: 3}
+  GlassShards: {fileID: 1577833439589821904, guid: b835727f02d59804e97d2d799ace73db,
+    type: 3}
+  VehicleLayer:
+    value: 8
+  WheelsLayer:
+    value: 9
+  CarSFXPrefab: {fileID: 724320323333057328, guid: 06bc12dcdbddc4f49b5b3425451bdcf1,
+    type: 3}
+  CarVFXPrefab: {fileID: 1537640022653335831, guid: 6e6cff603abe9ef49a2cd09f5c34d7fd,
+    type: 3}
+  PivotTex: {fileID: 2800000, guid: 9fe25b7eeca60d9499455762e646b9c6, type: 3}
+  BumperFront:
+    PartCaption: Bumper front
+    PartName: Bumper_Front
+    PartTooltip: 
+    PartButtonTexture: {fileID: 2800000, guid: 1958821ddf1fdd642abc5efc4dfc7158, type: 3}
+    PartPrefab: {fileID: 8468520272267569649, guid: 5db8b51826523c343a4147d94634db3e,
+      type: 3}
+  Hood:
+    PartCaption: Hood
+    PartName: Hood
+    PartTooltip: 
+    PartButtonTexture: {fileID: 2800000, guid: b3b074f9f42b5ef44abe030c7c674ffd, type: 3}
+    PartPrefab: {fileID: 4809268716842411626, guid: 72b6f843eb3f6584594a124428172533,
+      type: 3}
+  WingFrontLeft:
+    PartCaption: Wing FL
+    PartName: Wing_FL
+    PartTooltip: Wing front left
+    PartButtonTexture: {fileID: 2800000, guid: 486f30796e915554fad0b415c4adb321, type: 3}
+    PartPrefab: {fileID: 4753324675702740031, guid: 55490d9241fcc4d41ad884a4a59ed952,
+      type: 3}
+  WingFrontRight:
+    PartCaption: Wing FR
+    PartName: Wing_FR
+    PartTooltip: Wing front right
+    PartButtonTexture: {fileID: 2800000, guid: 3c65a3c08265f854eb6216d6c7bca28b, type: 3}
+    PartPrefab: {fileID: 1795907870721706455, guid: 2feff2d50ec59d147a4ad71627859626,
+      type: 3}
+  DoorFrontLeft:
+    PartCaption: Door FL
+    PartName: Door_FL
+    PartTooltip: Foor front left
+    PartButtonTexture: {fileID: 2800000, guid: 99c9708aa5d9e68498f11c632ddafb8e, type: 3}
+    PartPrefab: {fileID: 3248196408441413223, guid: 2c1825aaa0e5a2b448fb04f4f44c73f3,
+      type: 3}
+  DoorFrontRight:
+    PartCaption: Door FR
+    PartName: Door_FR
+    PartTooltip: Door front right
+    PartButtonTexture: {fileID: 2800000, guid: b898117926f08f143956965047ca843f, type: 3}
+    PartPrefab: {fileID: 5375344756855890252, guid: 240104c171ae19e4ebb316c710964051,
+      type: 3}
+  DoorRearLeft:
+    PartCaption: Door RL
+    PartName: Door_RL
+    PartTooltip: Door rear left
+    PartButtonTexture: {fileID: 2800000, guid: 9f57e089cae7c9a47bb4cefd8d6c24aa, type: 3}
+    PartPrefab: {fileID: 3248196408441413223, guid: 2c1825aaa0e5a2b448fb04f4f44c73f3,
+      type: 3}
+  DoorRearRight:
+    PartCaption: Door RR
+    PartName: Door_RR
+    PartTooltip: Door rear right
+    PartButtonTexture: {fileID: 2800000, guid: a5212a86f76791542b8afb220e6a759c, type: 3}
+    PartPrefab: {fileID: 5375344756855890252, guid: 240104c171ae19e4ebb316c710964051,
+      type: 3}
+  Trunk:
+    PartCaption: Trunk
+    PartName: Trunk
+    PartTooltip: 
+    PartButtonTexture: {fileID: 2800000, guid: 42f1aa0f1f99d92478043407d9616ee2, type: 3}
+    PartPrefab: {fileID: 184831868023193414, guid: 729b13c21906f504daa5139a644aea0d,
+      type: 3}
+  BumperRear:
+    PartCaption: Bumper rear
+    PartName: Bumper_Rear
+    PartTooltip: 
+    PartButtonTexture: {fileID: 2800000, guid: 69c8e23020e269541868b35ad132e0d5, type: 3}
+    PartPrefab: {fileID: 3416962738245960421, guid: 1fc7080beed911a4e8677010733bef72,
+      type: 3}
+  Body:
+    PartCaption: Body
+    PartName: Body
+    PartTooltip: 
+    PartButtonTexture: {fileID: 2800000, guid: 062290ce088681d4a99abb3013f79259, type: 3}
+    PartPrefab: {fileID: 3609592531729884727, guid: ee21697f316bf7e4dbfeffc6e763e49b,
+      type: 3}
+  BikeSFXPrefab: {fileID: 724320323333057328, guid: 50f6c57cf2ef3704e9305bb2cc2d285a,
+    type: 3}
+  BikeVFXPrefab: {fileID: 1537640022653335831, guid: 4c36a3178bd027d408da3479b6a576a9,
+    type: 3}
+  Bike_Body:
+    PartCaption: Body
+    PartName: Bike_Body
+    PartTooltip: Body
+    PartButtonTexture: {fileID: 2800000, guid: 8d7fce0f70f24a34fa9619cc4305dfc2, type: 3}
+    PartPrefab: {fileID: 0}
+  Bike_Handlebar:
+    PartCaption: Handlebar
+    PartName: Handlebar
+    PartTooltip: Handlebar
+    PartButtonTexture: {fileID: 2800000, guid: 1a96e6eae551786408971f994291cf7c, type: 3}
+    PartPrefab: {fileID: 0}
+  Bike_ForkFront:
+    PartCaption: Fork front
+    PartName: ForkFront
+    PartTooltip: Fork front
+    PartButtonTexture: {fileID: 2800000, guid: ebf1858822a3fb84fa36a869a3984a7a, type: 3}
+    PartPrefab: {fileID: 0}
+  Bike_ForkRear:
+    PartCaption: Fork rear
+    PartName: ForkRear
+    PartTooltip: Fork rear
+    PartButtonTexture: {fileID: 2800000, guid: 563f4d642e542fb4fa70e048489be95f, type: 3}
+    PartPrefab: {fileID: 0}
+  GlassDO: {fileID: 4376865776953807591, guid: ac72c3e45e3562448a1dd35d917127c2, type: 3}
+  LightObject: {fileID: 3662197550673587629, guid: 5644b670d0b07104eb6011cbb1d64a1e,
+    type: 3}
+  LightPintSource: {fileID: 5914751959529994009, guid: 273003d772e785649b60bcb1c027b827,
+    type: 3}
+  LightSpotSource: {fileID: 5914751959529994009, guid: 1710cf83e188d334da00d02d7cdd989e,
+    type: 3}
+  RedLightColor: {r: 1, g: 0, b: 0, a: 1}
+  YelowLightColor: {r: 1, g: 0.5874088, b: 0, a: 1}

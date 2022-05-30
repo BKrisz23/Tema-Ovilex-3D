@@ -8,12 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: UniStorm Auroras
-  m_Shader: {fileID: 4800000, guid: bf588b5265bf2c846bd4a3d563445a98, type: 3}
+  m_Shader: {fileID: 4800000, guid: 07de135925c76f04fb97d44479d0d83d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2560
+  m_CustomRenderQueue: 2600
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:

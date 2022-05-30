@@ -5,11 +5,50 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/Menu.unity
+    guid: b4034083e1239b34584e91eca1efd527
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/DriftScene.unity
+    guid: 8b9c5f7a7f711b74daac6e2378071e0c
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/DriftSceneNight.unity
+    guid: 4712883493a91204badffc7c06be7c02
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/RaceScene.unity
+    guid: 34deb619ca55ddd499ae4aaab13a27b2
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/DamageScene.unity
+    guid: 6efa18e93fb1dbb45a2d6d518b91dcec
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/MobileScene.unity
+    guid: c67f8d56836001a4184d7cffd67ea3a6
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/RaceScene_RaceAI.unity
+    guid: 842f6015a1f133f4a8c8a5bef854edbe
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/RaceScene_Bikes_RaceAI.unity
+    guid: 4b3d42db1488c56479d7275090beed29
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/RaceScene_PursuitAI.unity
+    guid: 0b869c989e9d5014b93fbc1e86b75675
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/DriftScene_DriftAI.unity
+    guid: cdfcdadea2ad74f4682a592cce9aae76
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/MobileScene_RaceAI.unity
+    guid: 3c58d94c079c64440acdebacb4596d67
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/MobileScene_DriftAI.unity
+    guid: ee919ffe201eac042ac41b404210be19
+  - enabled: 0
+    path: Assets/UVC_WithoutDependencies/Scenes/MobileScene_PursuitAI.unity
+    guid: 2e37117b621b7de4ca04d5d9fdb3ef97
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 78a9ee81bdc31de4093564c5ddd81202
   - enabled: 1
-    path: Assets/Scenes/Gameplay.unity
-    guid: 47ddb90e23956ad479428f17d250be12
+    path: Assets/Scenes/Car.unity
+    guid: 63a923ada8bf9ed4e955d2f1f248c09f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 73f6fe498ac67d44aa6d2f3486bfc9c3, type: 2}

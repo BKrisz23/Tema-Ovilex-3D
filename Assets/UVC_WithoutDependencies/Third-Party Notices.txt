@@ -1,0 +1,18 @@
+Asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+
+Font_Oswald.ttf
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+
+Font_Oswald-ExtraLight.ttf
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+
+Righteous-Regular.ttf
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
+(astigma@astigmatic.com), with Reserved Font Names "Righteous"
+
+Font_ShareTechMono-Regular.ttf
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+Copyright (c) 2012, Carrois Type Design, Ralph du Carrois (post@carrois.com www.carrois.com), with Reserved Font Name 'Share'

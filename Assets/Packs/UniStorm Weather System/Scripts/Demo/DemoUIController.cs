@@ -110,7 +110,7 @@ namespace UniStorm.Example
         {
             if (UniStormSystem.Instance.CloudShadows == UniStormSystem.EnableFeature.Enabled)
             {
-                UniStormSystem.Instance.m_CloudShadows.enabled = !UniStormSystem.Instance.m_CloudShadows.enabled;
+                UniStormSystem.Instance.m_CloudShadows.isEnabled = !UniStormSystem.Instance.m_CloudShadows.isEnabled;
             }
         }
 

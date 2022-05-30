@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19211ce00f9289b4589ecd9b4add72c6, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  EnumMeasurementSystem: 0
+  AvailableVehicles:
+  - {fileID: 5967024039016501675, guid: 2e4f1a768a58c814b982d56df677a57d, type: 3}
+  - {fileID: 5313924211586451621, guid: fe01f664cbfbc684b8b29abdd59d3a98, type: 3}
+  - {fileID: 5967024039016501675, guid: e8133a0925c654c4e808dc5428c1468a, type: 3}
+  - {fileID: 2372521549842532699, guid: e6846f78dc4831f47823c28d38cc6224, type: 3}
+  - {fileID: 2716677759362121287, guid: 2d9ffc833a93dce4c81365471110e2fc, type: 3}
+  - {fileID: 7039780683641967563, guid: 60278de80b49fc0469266780671739b0, type: 3}
+  - {fileID: 6499626005076082402, guid: d8c3cdffcf654b24e9506d13515cdd62, type: 3}
+  - {fileID: 5313924211586451621, guid: ff89bd373ce90bc48854404a8818a456, type: 3}
+  - {fileID: 5313924211586451621, guid: ff89bd373ce90bc48854404a8818a456, type: 3}
+  - {fileID: 5329165668113073755, guid: 802da32bd8a593b4cb1006125eaac658, type: 3}

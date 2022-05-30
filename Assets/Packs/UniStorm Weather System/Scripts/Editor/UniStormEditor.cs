@@ -8,6 +8,7 @@ using System;
 using UnityEditorInternal;
 using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
+using UnityEngine.Rendering.Universal;
 
 namespace UniStorm.Utility
 {
@@ -15,6 +16,7 @@ namespace UniStorm.Utility
     [System.Serializable]
     public class UniStormEditor : Editor
     {
+        SerializedProperty URPForwardRenderer;
         //5.0
         SerializedProperty CustomizeQualityProp;
         SerializedProperty ConvergenceSpeedProp;
@@ -245,6 +247,8 @@ namespace UniStorm.Utility
         {
             EditorApplication.update += Update;
             UniStormSystem self = (UniStormSystem)target;
+
+            URPForwardRenderer = serializedObject.FindProperty("urpForwardRendererData");
 
             //5.0
             CustomizeQualityProp = serializedObject.FindProperty("CustomizeQuality");
@@ -2523,6 +2527,8 @@ namespace UniStorm.Utility
                     EditorGUILayout.EndHorizontal();
                     EditorGUILayout.Space();
                     EditorGUILayout.Space();
+
+                    EditorGUILayout.PropertyField(URPForwardRenderer);
 
                     EditorGUILayout.EndVertical();
                     EditorGUILayout.EndHorizontal();

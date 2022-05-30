@@ -2,35 +2,39 @@ Shader "UniStorm/Celestial/Stars" {
 Properties {
 	_Color ("Tint Color", Color) = (0.5,0.5,0.5,0.5)
 	_Starmap ("Star Map", 2D) = "white" {}
-	_StarSpeed ("Rotation Speed", Float) = 2.0
-	_LoY ("Opaque Y", Float) = 0
-    _HiY ("Transparent Y", Float) = 10
+	_StarSpeed("Rotation Speed", Float) = 2.0
+	_LoY("Opaque Y", Float) = 0
+	_HiY("Transparent Y", Float) = 10
 }
 
-Category {
+Category{
 	Tags{ "Queue" = "Transparent-400" "RenderType" = "Transparent" "IgnoreProjector" = "True" }
 	Blend SrcAlpha One
-	Lighting Off 
+	Lighting Off
 	ZWrite Off
 
-	SubShader 
+	SubShader
 	{
-		Pass 
+		Pass
 		{
-            Stencil {
-                Ref 1
-                Comp NotEqual
-            }
+			Stencil {
+				Ref 1
+				Comp NotEqual
+			}
 
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
 			#pragma multi_compile_particles
 			#pragma multi_compile_fog
+			#pragma multi_compile_instancing
+
+			#pragma enable_d3d11_debug_symbols
 
 			#include "UnityCG.cginc"
 
-			sampler2D _Starmap;
+			UNITY_DECLARE_TEX2D(_Starmap);
+			//sampler2D _Starmap;
 			fixed4 _Color;
 			half _LoY;
       		half _HiY;
@@ -41,6 +45,8 @@ Category {
 				fixed4 color : COLOR;
 				float2 texcoord : TEXCOORD0;
 				float4 texcoord1 : TEXCOORD1;
+
+				UNITY_VERTEX_INPUT_INSTANCE_ID //Insert
 			};
 
 			struct v2f {
@@ -48,6 +54,9 @@ Category {
 				fixed4 color : COLOR;
 				float2 texcoord : TEXCOORD0;
 				float4 texcoord1 : TEXCOORD1;
+
+				//UNITY_VERTEX_INPUT_INSTANCE_ID //Insert
+				UNITY_VERTEX_OUTPUT_STEREO //Insert
 			};
 
 			float2 rotateUV(float2 uv, float degrees)
@@ -74,7 +83,12 @@ Category {
 			v2f vert (appdata_t v)
 			{
 				v2f o;
-				UNITY_INITIALIZE_OUTPUT(v2f,o);
+
+				UNITY_SETUP_INSTANCE_ID(v); //Insert
+				UNITY_INITIALIZE_OUTPUT(v2f, o); //Insert
+				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o); //Insert
+
+				//UNITY_INITIALIZE_OUTPUT(v2f,o);
 
 				float s = _ProjectionParams.z;
 
@@ -102,7 +116,7 @@ Category {
 
 			fixed4 frag (v2f i) : SV_Target
 			{				
-				fixed4 col = 1.0f * i.color * _Color * (tex2D(_Starmap, i.texcoord1.xy));
+				fixed4 col = 1.0f * i.color * _Color * (UNITY_SAMPLE_TEX2D(_Starmap, i.texcoord1.xy)); //tex2D
 				return col;
 			}
 			ENDCG 

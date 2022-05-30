@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd1f27d241062147a12bed81906bc6f, type: 3}
+  m_Name: RaceAIConfig
+  m_EditorClassIdentifier: 
+  AIConfig:
+    MaxSpeed: 150
+    MinSpeed: 6
+    SetSteerAngleMultiplayer: 2
+    ReverceWaitTime: 2
+    ReverceTime: 2
+    BetweenReverceTimeForReset: 6
+    OffsetToTargetPoint: 20
+    SpeedFactorToTargetPoint: 0
+    OffsetTurnPrediction: 20
+    SpeedFactorToTurnPrediction: 1.5
+    LookAngleSppedFactor: 30
+  RaceAIConfig:
+    Aggressiveness: 0.2
+    ObstacleHitDistance: 15
+    HitPointHeight: 0.5
+    ObstacleHitMask:
+      serializedVersion: 2
+      m_Bits: 256
+    ChangeHorizontalOffsetSpeed: 3
+    OffsetForMainHitPoints: 0.7
+    OffsetForMainHitDirections: 0.8
+    OffsetForAdditionalHitPoints: 1.2

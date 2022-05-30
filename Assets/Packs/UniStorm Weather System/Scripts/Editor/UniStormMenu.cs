@@ -40,6 +40,17 @@ namespace UniStorm.Utility
             Selection.activeGameObject = codeInstantiatedPrefab;
         }
 
+        [MenuItem("Window/UniStorm/Create UniStorm (URP)", false, 100)]
+        static void InstantiateUniStormURP()
+        {
+            Selection.activeObject = SceneView.currentDrawingSceneView;
+
+            GameObject codeInstantiatedPrefab = GameObject.Instantiate(Resources.Load("UniStorm URP System")) as GameObject;
+            codeInstantiatedPrefab.name = "UniStorm URP System";
+            codeInstantiatedPrefab.transform.position = new Vector3(0, 0, 0);
+            Selection.activeGameObject = codeInstantiatedPrefab;
+        }
+
         /*
         [MenuItem("Window/UniStorm/Regenerate Noise Textures", false, 100)]
         static void RegenerateNoiseTextures()
